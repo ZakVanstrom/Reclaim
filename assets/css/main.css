@@ -2263,6 +2263,7 @@ input, select, textarea {
 
 			#main > section.three {
 				background-color: #ecf1f1;
+				text-align: left;
 			}
 
 			#main > section.four {
@@ -2320,7 +2321,7 @@ input, select, textarea {
 					background-size: 25em, 25em, auto, cover;
 					color: #fff;
 					cursor: default;
-					padding: 6em 0;
+					padding: 3em 0;
 					text-align: center;
 				}
 
@@ -2333,7 +2334,7 @@ input, select, textarea {
 						-webkit-animation-fill-mode: forwards;
 						-ms-animation-fill-mode: forwards;
 						animation-fill-mode: forwards;
-						background: rgba(52, 27, 43, 0.6);
+						background: rgba(30, 30, 30, 0.7);
 						color: #fff;
 						display: inline-block;
 						opacity: 0;
@@ -2416,10 +2417,11 @@ input, select, textarea {
 						text-align: center;
 					}
 
+					/* Code Font */
 					code {
 						background: rgba(25, 25, 25, 0.92);
 						border-radius: 6px;
-						border: solid 2px #333333;
+						border: solid 2px #555555;
 						color: #EEEEEE;
 						font-family: "Courier New", monospace;
 						font-size: 0.75em;
@@ -2443,6 +2445,7 @@ input, select, textarea {
 							padding: .25em 1em;
 							overflow-x: auto;
 						}
+				/* Code Font End */
 
 /* Wide */
 
