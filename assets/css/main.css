@@ -2416,6 +2416,34 @@ input, select, textarea {
 						text-align: center;
 					}
 
+					code {
+						background: rgba(25, 25, 25, 0.92);
+						border-radius: 6px;
+						border: solid 2px #333333;
+						color: #EEEEEE;
+						font-family: "Courier New", monospace;
+						font-size: 0.75em;
+						margin: 0 16em;
+						padding: 0.25em 1em;
+						text-align: left;
+						width: 65%;
+						align-items: center;
+					}
+
+					pre {
+						-webkit-overflow-scrolling: touch;
+						font-family: "Courier New", monospace;
+						font-size: 0.75em;
+						margin: 0 0 2em 0;
+					}
+
+						pre code {
+							display: block;
+							line-height: 1.75;
+							padding: .25em 1em;
+							overflow-x: auto;
+						}
+
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
