@@ -90,6 +90,9 @@ input, select, textarea {
 		line-height: 1.75em;
 		color: #888;
 	}
+		body.resume {
+			background-color: #444444;
+		}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -1757,6 +1760,13 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image.resume {
+			display: block;
+			margin: 2em auto 0 2em;
+			width: 90%;
+
+		}
+
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
@@ -1961,7 +1971,7 @@ input, select, textarea {
 		display: inline-block;
 		font-size: 0.8em;
 		font-weight: 900;
-		letter-spacing: 2px;
+		letter-spacing: 3px;
 		min-width: 18em;
 		padding: 0 0.75em;
 		line-height: 3.75em;
@@ -2778,9 +2788,28 @@ input, select, textarea {
 				font-weight: 300;
 			}
 
+			.button {
+				display: inline;
+			}
+
 			.container {
 				padding: 0 15px 0 15px;
 			}
+
+			/* Banner */
+
+			 /* #banner {
+				background-size: 10em, 10em, auto, cover;
+				padding: 6em 0;
+			} */
+
+				#banner .inner {
+					display: block;
+					padding: 0 2em;
+				}
+					#banner .inner p {
+						text-align: center;
+					} */
 
 
 		/* List */
