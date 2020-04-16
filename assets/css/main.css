@@ -258,6 +258,9 @@ input, select, textarea {
 
 		}
 
+		code.container {
+			background-color: #000000;
+		}
 /* Row */
 
 	.row {
@@ -2420,16 +2423,17 @@ input, select, textarea {
 					/* Code Font */
 					code {
 						background: rgba(25, 25, 25, 0.92);
-						border-radius: 6px;
-						border: solid 2px #555555;
+						border-radius: 8px;
+						border: solid 3px #555555;
 						color: #EEEEEE;
 						font-family: "Courier New", monospace;
 						font-size: 0.75em;
-						margin: 0 16em;
+						align-content: center;
 						padding: 0.25em 1em;
 						text-align: left;
-						width: 65%;
-						align-items: center;
+						width: 90%;
+						max-width: 700px;
+
 					}
 
 					pre {
@@ -2779,11 +2783,19 @@ input, select, textarea {
 				padding: 0 15px 0 15px;
 			}
 
+
 		/* List */
 
 			ul.icons a {
 				width: 2em;
 				font-size: 1.25em;
+			}
+
+			code {
+				margin: 0 0 0 0;
+				padding: 0 0 0 0;
+				width: 100%;
+
 			}
 
 		/* Main */
