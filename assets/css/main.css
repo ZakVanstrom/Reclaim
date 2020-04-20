@@ -2004,7 +2004,7 @@ input, select, textarea {
 	}
 
 		.item header {
-			background: #fff;
+			background: #FFF;
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
@@ -2275,12 +2275,16 @@ input, select, textarea {
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #f8ffff;
 				text-align: left;
 			}
 
 			#main > section.four {
 				background-color: #e8edec;
+			}
+
+			#main > section.five {
+				background-color: #eef1f1;
 			}
 
 			/* Banner */
@@ -2459,6 +2463,11 @@ input, select, textarea {
 							overflow-x: auto;
 						}
 				/* Code Font End */
+
+
+#about {
+	text-align: left;
+}
 
 /* Wide */
 
@@ -2804,7 +2813,7 @@ input, select, textarea {
 				}
 					#banner .inner p {
 						text-align: center;
-					} */
+					} 
 
 
 		/* List */
